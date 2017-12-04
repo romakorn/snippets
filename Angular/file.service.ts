@@ -9,7 +9,7 @@ export class FileService {
 
     upload(files:Array<File>):Promise<Object> {
 
-        let url = 'http://kupi-oreh.ru:8085/file/';
+        let url = '';
         return new Promise((resolve,reject)=> {
 
             let formData = new FormData();
